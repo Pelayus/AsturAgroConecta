@@ -19,7 +19,7 @@ public class ControladorInicio {
 
     @GetMapping("/inicio")
 	public String pantallaInicio(Model modelo) {
-    	return "inicio";
+    	return "asturagroconecta";
     }
 	
 }
