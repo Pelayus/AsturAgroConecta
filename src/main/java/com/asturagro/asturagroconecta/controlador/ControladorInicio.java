@@ -17,7 +17,7 @@ public class ControladorInicio {
 	/*     LLAMADA A LA PANTALLA DE INICIO     */
 	/*******************************************/
 
-    @GetMapping("/inicio")
+    @GetMapping("/asturagroconecta")
 	public String pantallaInicio(Model modelo) {
     	return "asturagroconecta";
     }

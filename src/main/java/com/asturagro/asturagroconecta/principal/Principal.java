@@ -10,7 +10,7 @@ public class Principal implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         try {
-            String url = "http://localhost:8080/inicio";
+            String url = "http://localhost:8080/asturagroconecta";
             System.out.println("\n\t\t\t\033[1;36mLink de Entrada --> " + url + "\033[0m");
             
             // Intenta abrir el navegador mediante el sistema operativo
